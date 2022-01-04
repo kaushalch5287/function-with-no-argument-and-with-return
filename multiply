@@ -1,0 +1,14 @@
+#include<stdio.h>
+int multiply()
+{
+    int x,y,z;
+    scanf("%d%d",&x,&y);
+    z=x*y;
+    return z;
+}
+
+int main()
+{
+   printf("%d",multiply());
+    
+}
