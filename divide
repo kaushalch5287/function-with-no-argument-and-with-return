@@ -1,0 +1,14 @@
+#include<stdio.h>
+float divide()
+{
+    float x,y,z;
+    scanf("%f%f",&x,&y);
+    z=x/y;
+    return z;
+}
+
+int main()
+{
+   printf("%f",divide());
+    
+}
